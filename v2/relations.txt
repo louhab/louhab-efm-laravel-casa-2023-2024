@@ -1,0 +1,13 @@
+One-to-Many (Un à plusieurs) :
+Un pays peut avoir plusieurs touristes (relation entre la table "pays" et "touriste" via "idpays").
+Un pays peut avoir plusieurs hôtels (relation entre la table "pays" et "hotel" via "idpays").
+Un touriste peut faire plusieurs réservations (relation entre la table "touriste" et "reservation" via "idtouriste").
+Many-to-One (Plusieurs à un) :
+Plusieurs touristes peuvent venir d'un même pays (relation entre la table "touriste" et "pays" via "idpays").
+Plusieurs réservations peuvent être faites par un même touriste (relation entre la table "reservation" et "touriste" via "idtouriste").
+Plusieurs réservations peuvent être associées à un même hôtel (relation entre la table "reservation" et "hotel" via "idhotel").
+One-to-One (Un à un) :
+Il n'y a pas de relation de type un à un dans ce schéma.
+Many-to-Many (Plusieurs à plusieurs) :
+Les réservations peuvent être associées à plusieurs hôtels et vice versa (relation many-to-many entre "reservation" et "hotel", nécessitant une table pivot supplémentaire).
+Un touriste peut réserver dans plusieurs hôtels et un hôtel peut recevoir plusieurs touristes (relation many-to-many entre "touriste" et "hotel", nécessitant une table pivot supplémentaire).

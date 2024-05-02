@@ -1,0 +1,20 @@
+1.Dans quels Repertoire les controlleur sont stockes dans laravel:
+a.App/hhtp/controlleurs
+2.quels est la commande utilise pour demarer le server du laravel :
+d-php artisan server,
+3.les fichier vues se terminent par:
+d.blade.php
+4.ou se trouvent les fichier de routage du laravel :
+d.dans le dossier routes
+5.comment verfient la version actuel d"une application laravel 
+c.php artisan --version 
+6.que senifier orm dans laravel :
+c.object relation mapping , 
+7.quel est la methode de collection renvoine tous les enregistrements d"une collection:
+d-all(),
+8.quels est la methode permettant de creer un nouveau controller dans laravel :
+c.php artisan make:controller NameOfTheController ,
+9.quel est objective principale du routage dans laravel ,
+c.pour faire correspondre les url aux actions du controlleur , 
+10.a quoi sert la route fallback dans laravel :
+b.est ce que pour gerer les routes non definis et afficher un cnotenu personnaliser

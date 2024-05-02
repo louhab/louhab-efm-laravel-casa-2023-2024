@@ -1,0 +1,19 @@
+1.ou devant nous definir la connexion de la base des donnes :
+d.dans le fichier .env,
+2.quel est la commande est utiliser pour demarer le server du laravel:
+a.php artisan serrve, 
+3.Composer est outil pour la gestion des depandes ,
+4.quel est la methode est utilisees dans la classes , des migration des bases des donnes ,
+B.up() , and down()
+5.La commande est utilise pour des migration dans laravel est :
+a.php artisan make:migration create_my_table 
+6.Les quels des methodes suivant est utilise pour creer des middleware dans laravel ,
+a.php artisan make:middleware NameOfTheMiddleware , 
+7.quel est le but des middleaware dans laravel :
+a.filrer les requetes entrant dans votre application, 
+8.dans laravel quel est la methode est utiliser pour recuperer les donnees de la base des donnes dans le controlleur :
+b.get(),
+9.dans laravel ou se trouvent generalement les classent des controlleurs,
+D.dans le repertoire app/http/controllers , 
+10.quels la commande est utiliser pour lister tous les enregistrement dans laravel :
+b.php artisan route:liste , 
