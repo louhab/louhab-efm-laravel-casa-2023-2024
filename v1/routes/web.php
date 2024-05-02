@@ -2,17 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use App\Http\Controllers\RepasController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [RepasController::class, "index"])->name("repas.index");
+Route::delete('/repas/{id}', [RepasController::class, "destroy"])->name("repas.destroy");
+Route::post('/repas', [RepasController::class, "AddRepas"])->name("repas.store");
+Route::get('/repas', [RepasController::class, "create"])->name("repas.create");

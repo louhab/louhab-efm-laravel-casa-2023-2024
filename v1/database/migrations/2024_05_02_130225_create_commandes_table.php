@@ -18,9 +18,6 @@ class CreateCommandesTable extends Migration
             $table->integer('repas_id')->unsigned();
             $table->string('intitule');
             $table->string('description');
-
-
-
             $table->unsignedInteger('categorie_id');
             $table->foreign('categorie_id')->references('id')->on('categories')->onDelete('cascade');
             $table->timestamps();
